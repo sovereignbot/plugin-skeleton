@@ -1,0 +1,24 @@
+{
+  "name": "sovereignbot/plugin-skeleton",
+  "description": "Simple skeleton for the plugins to use.",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michael Karbowiak",
+      "email": "karbowiak@gmail.com"
+    },
+    {
+      "name": "Matthew Glinski",
+      "email": "matthewglinski@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Sovereign\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^7.0.0"
+  }
+}
